@@ -1,5 +1,5 @@
 /**
- * bdd-wrappers.js - http://podefr.github.com/bdd-wrappers/
+ * bdd-wrappers.js - https://github.com/podefr/bdd-wrappers
  * Copyright(c) 2013 Olivier Scherrer <pode.fr@gmail.com>
  * MIT Licensed
  */
