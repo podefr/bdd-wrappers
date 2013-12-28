@@ -11,9 +11,9 @@ function wrap(name, step) {
 	};
 }
 
-this.GIVEN = wrap("GIVEN ", describe);
-this.WHEN = wrap("WHEN ", describe);
-this.AND = wrap("AND ", describe);
-this.THEN = wrap("IT ", it);
+GLOBAL.GIVEN = wrap("GIVEN ", describe);
+GLOBAL.WHEN = wrap("WHEN ", describe);
+GLOBAL.AND = wrap("AND ", describe);
+GLOBAL.THEN = wrap("IT ", it);
 
 module.exports.wrap = wrap;
