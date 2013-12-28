@@ -1,0 +1,24 @@
+{
+ "name": "bdd-wrappers",
+ "description": "BDD wrappers for jasmine and mocha describe/it to help writing tests in GIVEN WHEN THEN AND IT fashion",
+ "version": "0.0.1",
+ "homepage": "https://github.com/podefr/bdd-wrappers",
+ "licenses": [{
+  "type":"MIT",
+  "url":"https://github.com/podefr/bdd-wrappers/blob/master/LICENSE"
+ }],
+ "files": [
+ 	"LICENSE",
+ 	"bdd-wrappers.js"
+ ],
+ "author": "Olivier Scherrer <pode.fr@gmail.com>",
+ "keywords": ["BDD", "GIVEN", "WHEN", "THEN", "AND", "test", "jasmine", "mocha"],
+ "repository": {
+  "type": "git",
+  "url": "git@github.com:podefr/bdd-wrappers.git"
+ },
+ "bugs": {
+  "url": "https://github.com/podefr/bdd-wrappers/issues"
+ },
+ "main":"bdd-wrappers.js"
+}
