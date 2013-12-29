@@ -1,7 +1,7 @@
 bdd-wrappers
 =============
 
-BDD wrappers for jasmine and mocha describe/it to help writing tests in GIVEN WHEN THEN AND IT fashion so you can write:
+BDD wrappers for jasmine and mocha describe/it to help writing tests in GIVEN WHEN THEN AND fashion so you can write:
 
 ```js
 GIVEN("a gremlin", function () {
