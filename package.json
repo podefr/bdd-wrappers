@@ -1,7 +1,7 @@
 {
  "name": "bdd-wrappers",
  "description": "BDD wrappers for jasmine and mocha describe/it to help writing tests in GIVEN WHEN THEN AND fashion",
- "version": "0.0.3",
+ "version": "0.0.4",
  "homepage": "https://github.com/podefr/bdd-wrappers",
  "licenses": [{
   "type":"MIT",
