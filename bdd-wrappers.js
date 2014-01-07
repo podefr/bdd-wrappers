@@ -5,15 +5,17 @@
  */
 'use strict';
 
+var _global = Function('return this')();
+
 function wrap(name, step) {
 	return function func(desc, cb) {
 		step(name + desc, cb);
 	};
 }
 
-GLOBAL.GIVEN = wrap("GIVEN ", describe);
-GLOBAL.WHEN = wrap("WHEN ", describe);
-GLOBAL.AND = wrap("AND ", describe);
-GLOBAL.THEN = wrap("IT ", it);
+_global.GIVEN = wrap("GIVEN ", describe);
+_global.WHEN = wrap("WHEN ", describe);
+_global.AND = wrap("AND ", describe);
+_global.THEN = wrap("IT ", it);
 
 module.exports.wrap = wrap;
